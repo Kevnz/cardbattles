@@ -11,16 +11,16 @@ export default class App extends Component {
   render() {
     return (
       <Fragment>
-        <NavBar isPrimary isFixedTop>
+        <NavBar>
           <NavBarBrand
             src="/favicon-32x32.png"
             href="/"
             target="navTarget"
             width="32"
+            title=" CardBattles"
             height="32"
           />
         </NavBar>
-        <h1>App</h1>
         <React.Suspense fallback={<Loading />}>
           <Router>
             <Home path="/" />

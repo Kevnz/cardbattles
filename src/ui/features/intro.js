@@ -15,10 +15,10 @@ import {
 export default () => {
   return (
     <>
-      <Hero isBold isInfo>
+      <Hero isBold isPrimary>
         <HeroBody>
-          <Title>CardBattles</Title>
-          <SubTitle>Join the fight</SubTitle>
+          <Title>CardBattles - Intro</Title>
+          <SubTitle>How to play</SubTitle>
         </HeroBody>
       </Hero>
       <br />
