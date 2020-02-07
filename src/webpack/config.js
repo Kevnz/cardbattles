@@ -33,8 +33,8 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.mjs', '.js', '.jsx'],
-    modules: ['node_modules', 'src'],
+    extensions: ['*', '.mjs', '.js', '.jsx', '.scss'],
+    modules: ['node_modules', 'src', path.resolve(__dirname, '../ui')],
     alias: {},
   },
   output: {
